@@ -1,7 +1,7 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A README Generator using node.js to allow user to input project information and get a README",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/rjhelm/readme-generator.git"
   },
-  "author": "",
+  "author": "Ryan Helm",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rjhelm/readme-generator/issues"
