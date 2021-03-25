@@ -73,3 +73,11 @@ const promptUser = () => {
         }
     ]);
 }
+
+// async function init() {
+//     try {
+//         const answers = await promptUser();
+//         const generateContent = generate(answers);
+//         await writeFileSync(`./dist/README.md`, generateContent);
+//     }
+// }
