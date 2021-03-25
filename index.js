@@ -3,6 +3,7 @@ const fs = require('fs');
 const util = require('util');
 const inquirer = require('inquirer');
 const generate = require('./utils/generate');
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // User prompt functions
 const promptUser = () => {
