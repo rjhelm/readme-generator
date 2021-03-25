@@ -5,16 +5,18 @@ const generate = (answers) => {
 
     ![badge]((https://img.shields.io/badge/license-${answers.license}?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)<br />
 
-    ## Project Content Links
+    ## Description
+    ${answers.description}
+    
+    ## Table of Contents
     - [Description](#description)
     - [Installation](#install)
     - [Usage](#usage)
     - [License](#license)
-    -
+    - [Contributions](#contributors)
+    - [Tests](#tests)
+    - [Questions](#questions)
 
-    ## Description
-    ${answers.description}
-    
     ## Installation
     ${answers.install}
 
@@ -23,7 +25,23 @@ const generate = (answers) => {
 
     ## License
     ![badge](https://img.shields.io/badge/license-${answers.license}?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)
-    </br>
+    <br />
     Project falls under the coverage of ${answers.license} license.
-    `
+    
+    ## Contributions
+    ${answers.contributors}
+
+    ## Tests
+    ${answers.tests}
+
+    ## Questions
+    ${answers.questions}
+    <br />
+    :octocat: My GitHub: [${answers.gitname}]((https://github.com/${answers.username})<br />
+    <br />
+    My Email: ${answers.email}<br />
+
+    `;
 }
+
+module.exports = generate;
