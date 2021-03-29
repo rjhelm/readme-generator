@@ -1,10 +1,11 @@
+
     <h1 align="center">readme-generator</h1>
 
     ![badge]((https://img.shields.io/badge/license-MIT?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)<br />
 
     ## Description
-    Using node and answering questions in the terminal creates a new project readme.
-
+    Produces a README.md file based on user input in the terminal
+    
     ## Table of Contents
     - [Description](#description)
     - [Installation](#install)
@@ -15,16 +16,16 @@
     - [Questions](#questions)
 
     ## Installation
-    npm install inquirer npm init
+    -npm init -npm install inquirer
 
     ## Usage
-    Create a professional and clean README.md for a project, this is done easily by answering questions in the terminal.
+    The user can produce a readme.md for the project they are working on by running this and answering the questions in the terminal after install the correct node tools. They are given an auto generated document based on the input.
 
     ## License
     ![badge](https://img.shields.io/badge/license-MIT?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)
     <br />
     Project falls under the coverage of MIT license.
-
+    
     ## Contributions
     Ryan Helm
 
@@ -32,7 +33,7 @@
     No
 
     ## Questions
-    Contact me using github or email
+    Contact me using gihub or email
     <br />
     :octocat: My GitHub: [rjhelm]((https://github.com/undefined)<br />
     <br />
@@ -40,3 +41,4 @@
 
 
     Created by [readme-generator](https://github.com/rjhelm/readme-generator)
+    

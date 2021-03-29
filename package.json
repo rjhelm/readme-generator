@@ -11,12 +11,13 @@
     "url": "git+https://github.com/rjhelm/readme-generator.git"
   },
   "author": "Ryan Helm",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rjhelm/readme-generator/issues"
   },
   "homepage": "https://github.com/rjhelm/readme-generator#readme",
   "dependencies": {
     "inquirer": "^8.0.0"
-  }
+  },
+  "devDependencies": {}
 }
