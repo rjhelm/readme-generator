@@ -3,7 +3,7 @@ const generate = (answers) => {
     return `
     <h1 align="center">${answers.title}</h1>
 
-    ![badge]((https://img.shields.io/badge/license-${answers.license}?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)<br />
+    ![badge]((https://img.shields.io/badge/license-${answers.license}-blue)<br />
 
     ## Description
     ${answers.description}
@@ -24,7 +24,7 @@ const generate = (answers) => {
     ${answers.usage}
 
     ## License
-    ![badge](https://img.shields.io/badge/license-${answers.license}?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)
+    ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
     <br />
     Project falls under the coverage of ${answers.license} license.
     
@@ -37,7 +37,7 @@ const generate = (answers) => {
     ## Questions
     ${answers.questions}
     <br />
-    :octocat: My GitHub: [${answers.gitname}]((https://github.com/${answers.username})<br />
+    :octocat: My GitHub: [${answers.gitname}]((https://github.com/${answers.gitname})<br />
     <br />
     My Email: ${answers.email}<br />
 

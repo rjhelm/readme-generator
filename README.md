@@ -1,6 +1,13 @@
  <h1 align="center">readme-generator</h1>
 
-    ![badge]((https://img.shields.io/badge/license-MIT?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)<br />
+    <p align="center">
+        <img src="https://img.shields.io/badge/Javascript-yellow" />
+        <img src="https://img.shields.io/badge/jQuery-blue"  />
+        <img src="https://img.shields.io/badge/-node.js-green" />
+        <img src="https://img.shields.io/badge/-inquirer-red" >
+        <img src="https://img.shields.io/badge/-screencastify-purple" />
+        <img src="https://img.shields.io/badge/-json-darkgrey" />
+    </p>
 
     ## Description
     Produces a README.md file based on user input in the terminal
@@ -22,11 +29,7 @@
     ## Usage
     The user can produce a readme.md for the project they are working on by running this and answering the questions in the terminal after install the correct node tools. They are given an auto generated document based on the input.
 
-    ## License
-    ![badge](https://img.shields.io/badge/license-MIT?style=plastic&logo=appveyor?labelColor=blueviolet?color=blue)
-    <br />
-    Project falls under the coverage of MIT license.
-    
+
     ## Contributions
     Ryan Helm
 
@@ -36,6 +39,6 @@
     ## Questions
     Contact me using gihub or email
     <br />
-    :octocat: My GitHub: [rjhelm]((https://github.com/undefined)<br />
+    :octocat: My GitHub: [rjhelm]((https://github.com/rjhelm)<br />
     <br />
     My Email: ryjhelm@outlook.com<br />
