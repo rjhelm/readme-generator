@@ -13,7 +13,8 @@
   ## Description
     
    Produces a README.md file based on user input in the terminal
-    [Video Guide](https://drive.google.com/file/d/1WF7II0YvPnW58OrJxqWo46aOLX5-GxBF/view)
+   <br />
+   [Video Guide](https://drive.google.com/file/d/1WF7II0YvPnW58OrJxqWo46aOLX5-GxBF/view)
     <br />
     
   ## Table of Contents
