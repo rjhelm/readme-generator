@@ -1,13 +1,14 @@
  <h1 align="center">readme-generator</h1>
-
-    <p align="center">
-        <img src="https://img.shields.io/badge/Javascript-yellow" />
-        <img src="https://img.shields.io/badge/jQuery-blue"  />
-        <img src="https://img.shields.io/badge/-node.js-green" />
-        <img src="https://img.shields.io/badge/-inquirer-red" >
-        <img src="https://img.shields.io/badge/-screencastify-purple" />
-        <img src="https://img.shields.io/badge/-json-darkgrey" />
-    </p>
+</p>
+  
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-inquirer-red" >
+    <img src="https://img.shields.io/badge/-screencastify-lightgrey" />
+    <img src="https://img.shields.io/badge/-json-orange" />
+</p>
 
     ## Description
     Produces a README.md file based on user input in the terminal
