@@ -75,10 +75,15 @@ const promptUser = () => {
     ]);
 }
 
-// async function init() {
-//     try {
-//         const answers = await promptUser();
-//         const generateContent = generate(answers);
-//         await writeFileSync(`./dist/README.md`, generateContent);
-//     }
-// }
+async function init() {
+    try {
+        const answers = await promptUser();
+        const generateContent = generate(answers);
+        await writeFileSync(`./dist/README.md`, generateContent);
+        console.log('Your README.md docuemnt succesfully generated!');
+    } catch(err) {
+        console.log(err);
+    }
+}
+
+init();

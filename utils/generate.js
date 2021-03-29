@@ -41,6 +41,8 @@ const generate = (answers) => {
     <br />
     My Email: ${answers.email}<br />
 
+
+    Created by [readme-generator](https://github.com/rjhelm/readme-generator)
     `;
 }
 
